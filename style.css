@@ -1,5 +1,151 @@
 *
 {
 	margin: 0;
-	font-family: BigBang;
+	font-family: sans-serif;
 }
+.header{
+	background-image: url(./Mask\ group.png);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.pRussia{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+}
+.pUslugu{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+}
+
+.header01{
+	display: flex;
+	
+	align-items: center;
+	width: 50%;
+	justify-content: space-around;
+}
+.headerChild{
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 93%;
+	margin: auto;
+}
+.header02{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+.hr1{
+	margin-top: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.479);
+}
+.pПомогаем{
+	font-size: 80px;
+	font-weight: 400;
+	color: #FFFFFF;
+	width: 540px;
+}
+.spanPervim{
+font-size: 80px;
+	font-weight: 400;
+	color: #60C880;
+}
+.pInter{
+	font-size: 20px;
+	font-weight: 400;
+	color:#FFFFFF ;
+	width: 580px;
+	line-height: 28px;
+}
+.pOtprav{
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+	width: 260px;
+	height: 60px;
+	background-color: #60C880;
+	border: none;
+	border-radius: 200px;
+}
+.headerChild2{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	margin-top: 150px;
+	margin-left: 80px;
+}
+.Imggroup{
+	position: absolute;
+	bottom: 40px;
+	right: 150px;
+}
+.pRussiaa{
+	display: none;
+		font-size: 18px;
+	font-weight: 400;
+	color: white;
+}
+.img46{
+	display: none;
+}
+@media (max-width:510px) {
+	.goupp{
+		display: none;
+	}
+	.pUslugu{
+		display: none;
+	}
+	.pRussia{
+	display: none;
+	}
+	.pRussiaa{
+	display: block;
+	width: 200px;
+	}
+	.sabaqa{
+		display: flex;
+		gap: 15px;
+		align-items: center;
+	}
+	.header02{
+		gap: 15px;
+	}
+	.headerChild2{
+		margin-left: 10px;
+		margin-top: 60px;
+	}
+	.pПомогаем{
+		font-size: 36px;
+		width:335px ;
+	}
+	.pInter{
+		font-size: 18px;
+		font-weight: 400;
+		color: #FFFFFF;
+		width: 335px;
+		line-height: 140%;
+	}
+	.spanPervim{
+		font-size: 36px;
+		
+	}
+	.Imggroup{
+	width: 80px;
+	height: 80px;	
+	right: 20px;
+	}
+	.header{
+		height: 650px;
+	}
+	.img46{
+	display: block;
+}
+}
+
