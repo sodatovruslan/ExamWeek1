@@ -143,6 +143,68 @@ font-size: 80px;
 .ITC{
 	width: 445px;
 }
+.pNashi{
+	font-size: 60px;
+	font-weight: 600px;
+}
+.arrow{
+	display: flex;
+	align-items: center;
+}
+.pPo{
+	font-size: 36px;
+	font-weight: 600;
+	color: #3D3D3D;
+	
+}
+.pSoboy{
+	font-size: 36px;
+	font-weight: 400;
+	width: 1100px;
+	line-height: 55px;
+	color: #3d3d3dd0;
+}
+.podrobna{
+	font-size: 36px;
+	font-weight: 400;
+	color: #3D3D3D;
+}
+.POSCHETE{
+	display: flex;
+	flex-direction: column
+	;
+	gap: 20px;
+
+}
+.Div01{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	border: 1px solid rgba(128, 128, 128, 0.403);
+	width: 1350px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 5px;
+
+}
+.DivDad{
+	margin-top: 80px;
+}
+.FlexTwo{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.NashDiv{
+	margin-left: 60px;
+}
+.Psmotert{
+	font-size:26px ;
+	font-weight: 400;
+	color: #60C880;
+	margin-top: 50px;
+	margin-left: 70px;
+}
 @media (max-width:510px) {
 	.goupp{
 		display: none;
@@ -197,10 +259,46 @@ font-size: 80px;
 }
 .SectionFirst{
 	flex-direction: column;
-	align-items: center;
-}
-.textBox{
-	margin-left: 10px;
-}
+	
 }
 
+.ITC{
+	width: 335px;
+}
+.pNashi{
+	font-size: 60px;
+	font-weight: 600px;
+}
+.pPo{
+	width: 335px;
+}
+.pSoboy{
+	width: 335px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.DivDad{
+	width: 100%;
+}
+.Div01{
+	width: 435px;
+	padding: 40px;
+}
+.gr78{
+	width: 40px;
+	height: 40px;
+}
+
+
+.NashDiv{
+margin-top: 50px;
+margin-left: 20px;
+}
+.textBox{
+	margin-left: 20px;
+}
+.Psmotert{
+	margin-left: 10px;
+}
+
+}
