@@ -380,6 +380,46 @@ margin-left: 30px;
 .SectionFifth{
 	margin-top: 140px;
 }
+.Frontend{
+	font-size: 32px;
+	font-weight: 600;
+	color:#60C880 ;
+}
+.Img8{
+	width: 154px;
+	height: 80px;
+	border: 1px solid rgba(128, 128, 128, 0.512);
+	padding: 10px;
+}
+.BoxxFox{
+	display: flex;
+	margin-top: 40px;
+}
+.Maskk{
+	height: 90px;
+}
+.Image14{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.FronFlex{
+	display: flex;
+justify-content: space-around;
+margin-top: 60px;
+}
+.SectionSixth{
+	margin-top: 100px;
+}
+.LeftBoxx{
+	margin-left: 15px;
+}
+.java{
+	margin-left: 50px;
+}
+.icin{
+	margin-top: 10px;
+	margin-left: 10px;
+}
 @media (max-width:510px) {
 	.goupp{
 		display: none;
@@ -575,6 +615,20 @@ right: 250px;
 
 }
 .SectionFifth{
+	margin-top: 20px;
+}
+.FronFlex{
+	flex-direction: column;
+	align-items: center;
+}
+.none{
+	display: none;
+}
+.Img8{
+	width: 220px;
+	margin-top: 10px;
+}
+.Topbox{
 	margin-top: 20px;
 }
 }
