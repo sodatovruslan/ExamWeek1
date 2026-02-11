@@ -106,6 +106,9 @@ font-size: 80px;
 	color:#3D3D3D ;
 	width: 720px;
 }
+.LeftIog{
+	margin-left: 50px;
+}
 .ITC{
 	font-size: 20px;
 	font-weight: 400;
@@ -509,6 +512,76 @@ margin-top: 60px;
 gap: 40px;
 margin-left: 50px;
 }
+.Footer{
+	width: 99.9%;
+	height: 428px;
+	background-color: #1B1E31;
+	border: 1px solid #1B1E31;
+}
+.Uslugi{
+	font-size:22px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+.P0{
+	width: 428px;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	line-height: 34px;
+}
+.divUslugi{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.pwid{
+	width: 108px;
+}
+.p7Ru{
+	font-size: 26px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.exampl{
+	font-size: 26px;
+	font-weight: 400;
+	color: #60C880;
+}
+.Button{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	background-color: #60C880;
+	width: 254px;
+height: 60px;
+	border-radius: 200px;
+	border: none;
+}
+.FooterChild{
+	display: flex;
+	justify-content: space-around;
+	
+	margin-top: 120px;
+}
+.Copy{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(128, 128, 128, 0.719);
+}
+.FooterEnd{
+	display: flex;
+	justify-content:space-between;
+	width: 84%;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+.hrfooter{
+	position: relative;
+top: 70px;
+border: 1px solid grey;
+}
 @media (max-width:510px) {
 	.goupp{
 		display: none;
@@ -746,5 +819,12 @@ right: 250px;
 }
 .pOstavit{
 	width: 400px;
+}
+.FooterEnd{
+	flex-direction: column;
+}
+.Footer{
+	width: 99.4%;
+	margin: auto;
 }
 }
